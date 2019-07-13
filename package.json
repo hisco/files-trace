@@ -1,0 +1,37 @@
+{
+  "name": "files-trace",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/files-trace.js",
+  "types": "src/files-trace.d.ts",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec",
+    "watch-test": "mocha --recursive --watch --reporter spec",
+    "test-ci": "istanbul cover ./node_modules/mocha/bin/_mocha test/**/*.js --report lcovonly -- -R spec && cat ./coverage/lcov.info"
+  },
+  "devDependencies": {
+    "mocha": "6.1.4",
+    "chai": "4.2.0",
+    "chai-spies": "1.0.0",
+    "istanbul": "0.4.5"
+  },
+  "keywords": [
+    "regex",
+    "regular expression",
+    "regexp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hisco/files-trace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hisco/files-trace/issues"
+  },
+  "homepage": "https://github.com/hisco",
+  "author": "Eyald <hisco@googlegroups.com‬>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.6.2",
+    "dependencies-trace": "0.0.1"
+  }
+}
