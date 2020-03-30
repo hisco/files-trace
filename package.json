@@ -31,7 +31,7 @@
   "author": "Eyald <hisco@googlegroups.com‬>",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^12.6.2",
+    "@types/node": "^13.9.7",
     "dependencies-trace": "0.0.1"
   }
 }
